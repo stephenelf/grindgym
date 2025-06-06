@@ -25,9 +25,11 @@ androidxNavigation = "2.8.5"
 swipableCards = "1.1.3"
 glide = "1.0.0-beta01"
 palette = "1.0.0"
-google-android-gms ="21.1.0"
+google-android-gms ="21.3.0"
 accompanist = "0.35.0-alpha"
 detekt ="1.23.1"
+coroutines ="1.10.1"
+coroutines-services ="1.7.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -65,7 +67,8 @@ bumptech-glide = { group = "com.github.bumptech.glide", name = "compose", versio
 androidx-palette = { group = "androidx.palette", name = "palette", version.ref = "palette" }
 google-android-gms = { group = "com.google.android.gms", name = "play-services-location", version.ref = "google-android-gms" }
 google-accompanist = { group = "com.google.accompanist", name = "accompanist-permissions" , version.ref = "accompanist" }
-
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines"}
+kotlinx-coroutines-play-services = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-play-services", version.ref = "coroutines-services"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

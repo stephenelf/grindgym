@@ -11,3 +11,6 @@ Just a simple app to play with some coding skills
 - additional animations for a dynamic user experience
 - accessibility features for wider usability
 
+## References
+- https://github.com/android/platform-samples/tree/main/samples/location/src/main/java/com/example/platform/location/currentLocation
+- https://github.com/smartword-app/compose-swipeable-cards
