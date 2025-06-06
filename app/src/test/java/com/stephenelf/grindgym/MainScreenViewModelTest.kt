@@ -19,12 +19,13 @@ class MainScreenViewModelTest {
     @Inject
     lateinit var gymRepository: GymRepository
 
-    @Inject
+
     lateinit var mainScreenViewModel: MainScreenViewModel
 
     @Before
     fun init() {
         hiltRule.inject()
+        mainScreenViewModel= MainScreenViewModel(gymRepository)
     }
 
     @Test
