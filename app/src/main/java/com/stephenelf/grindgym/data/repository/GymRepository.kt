@@ -1,6 +1,6 @@
-package com.stephenelf.gymder.data.repository
+package com.stephenelf.grindgym.data.repository
 
-import com.stephenelf.gymder.data.model.Gym
+import com.stephenelf.grindgym.data.model.Gym
 import kotlinx.coroutines.flow.Flow
 
 interface GymRepository {

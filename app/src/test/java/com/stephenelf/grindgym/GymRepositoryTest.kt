@@ -1,12 +1,12 @@
-package com.stephenelf.gymder
+package com.stephenelf.grindgym
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.stephenelf.gymder.data.api.GymApi
-import com.stephenelf.gymder.domain.repository.GymRepositoryImpl
-import com.stephenelf.gymder.data.repository.GymRepository
-import com.stephenelf.gymder.domain.di.LocalDateTimeAdapter
+import com.stephenelf.grindgym.data.api.GymApi
+import com.stephenelf.grindgym.domain.repository.GymRepositoryImpl
+import com.stephenelf.grindgym.data.repository.GymRepository
+import com.stephenelf.grindgym.domain.di.LocalDateTimeAdapter
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import okhttp3.OkHttpClient

@@ -1,8 +1,8 @@
-package com.stephenelf.gymder.domain.di
+package com.stephenelf.grindgym.domain.di
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.stephenelf.gymder.data.api.GymApi
+import com.stephenelf.grindgym.data.api.GymApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.stephenelf.gymder
+package com.stephenelf.grindgym
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,6 +1,6 @@
 @file:Suppress("IMPLICIT_CAST_TO_ANY")
 
-package com.stephenelf.gymder.ui.theme
+package com.stephenelf.grindgym.ui.theme
 
 import android.os.Build
 import androidx.compose.ui.graphics.Color

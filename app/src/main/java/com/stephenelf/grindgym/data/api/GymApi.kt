@@ -1,7 +1,7 @@
-package com.stephenelf.gymder.data.api
+package com.stephenelf.grindgym.data.api
 
-import com.stephenelf.gymder.data.model.Gym
-import com.stephenelf.gymder.data.model.ListResponse
+import com.stephenelf.grindgym.data.model.Gym
+import com.stephenelf.grindgym.data.model.ListResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

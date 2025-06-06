@@ -1,7 +1,7 @@
-package com.stephenelf.gymder
+package com.stephenelf.grindgym
 
-import com.stephenelf.gymder.data.repository.GymRepository
-import com.stephenelf.gymder.ui.main.MainScreenViewModel
+import com.stephenelf.grindgym.data.repository.GymRepository
+import com.stephenelf.grindgym.ui.main.MainScreenViewModel
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import kotlinx.coroutines.runBlocking

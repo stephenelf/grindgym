@@ -1,4 +1,4 @@
-package com.stephenelf.gymder.ui.main
+package com.stephenelf.grindgym.ui.main
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -27,9 +27,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.stephenelf.gymder.R
-import com.stephenelf.gymder.data.model.Gym
-import com.stephenelf.gymder.ui.util.GymSwipableCards
+import com.stephenelf.grindgym.R
+import com.stephenelf.grindgym.data.model.Gym
+import com.stephenelf.grindgym.ui.util.GymSwipableCards
 
 
 @OptIn(ExperimentalLayoutApi::class)

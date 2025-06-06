@@ -1,8 +1,8 @@
-package com.stephenelf.gymder.domain.repository
+package com.stephenelf.grindgym.domain.repository
 
-import com.stephenelf.gymder.data.api.GymApi
-import com.stephenelf.gymder.data.model.Gym
-import com.stephenelf.gymder.data.repository.GymRepository
+import com.stephenelf.grindgym.data.api.GymApi
+import com.stephenelf.grindgym.data.model.Gym
+import com.stephenelf.grindgym.data.repository.GymRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

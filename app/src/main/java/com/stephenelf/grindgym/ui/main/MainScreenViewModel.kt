@@ -1,9 +1,9 @@
-package com.stephenelf.gymder.ui.main
+package com.stephenelf.grindgym.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.stephenelf.gymder.R
-import com.stephenelf.gymder.data.repository.GymRepository
+import com.stephenelf.grindgym.R
+import com.stephenelf.grindgym.data.repository.GymRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

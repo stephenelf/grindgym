@@ -1,4 +1,4 @@
-package com.stephenelf.gymder.domain.di
+package com.stephenelf.grindgym.domain.di
 
 import com.squareup.moshi.FromJson
 import com.squareup.moshi.ToJson

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Gymder"
+rootProject.name = "grindgym"
 include(":app")
  

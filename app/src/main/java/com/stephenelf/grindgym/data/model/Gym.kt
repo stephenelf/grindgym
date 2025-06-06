@@ -1,4 +1,4 @@
-package com.stephenelf.gymder.data.model
+package com.stephenelf.grindgym.data.model
 
 import java.util.Date
 

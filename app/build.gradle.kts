@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.stephenelf.gymder"
+    namespace = "com.stephenelf.grindgym"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.stephenelf.gymder"
+        applicationId = "com.stephenelf.grindgym"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

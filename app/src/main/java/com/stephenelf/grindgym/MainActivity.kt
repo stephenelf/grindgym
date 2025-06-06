@@ -1,4 +1,4 @@
-package com.stephenelf.gymder
+package com.stephenelf.grindgym
 
 
 import android.annotation.SuppressLint
@@ -13,9 +13,9 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
-import com.stephenelf.gymder.ui.main.MainScreen
-import com.stephenelf.gymder.ui.theme.GymderTheme
-import com.stephenelf.gymder.ui.util.RequestLocationPermissionUsingRememberLauncherForActivityResult
+import com.stephenelf.grindgym.ui.main.MainScreen
+import com.stephenelf.grindgym.ui.theme.GymderTheme
+import com.stephenelf.grindgym.ui.util.RequestLocationPermissionUsingRememberLauncherForActivityResult
 import dagger.hilt.android.AndroidEntryPoint
 import android.Manifest
 

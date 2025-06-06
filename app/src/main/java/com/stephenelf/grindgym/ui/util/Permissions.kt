@@ -1,4 +1,4 @@
-package com.stephenelf.gymder.ui.util
+package com.stephenelf.grindgym.ui.util
 
 import android.Manifest
 import androidx.activity.compose.rememberLauncherForActivityResult

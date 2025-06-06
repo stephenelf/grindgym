@@ -1,4 +1,4 @@
-package com.stephenelf.gymder.ui.util
+package com.stephenelf.grindgym.ui.util
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -35,7 +35,7 @@ import com.spartapps.swipeablecards.state.rememberSwipeableCardsState
 import com.spartapps.swipeablecards.ui.SwipeableCardDirection
 import com.spartapps.swipeablecards.ui.lazy.LazySwipeableCards
 import com.spartapps.swipeablecards.ui.lazy.items
-import com.stephenelf.gymder.data.model.Gym
+import com.stephenelf.grindgym.data.model.Gym
 
 @Composable
 fun GymSwipableCards(
