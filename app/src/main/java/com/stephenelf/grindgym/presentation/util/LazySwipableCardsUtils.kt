@@ -1,4 +1,4 @@
-package com.stephenelf.grindgym.ui.util
+package com.stephenelf.grindgym.presentation.util
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -35,7 +35,9 @@ import com.spartapps.swipeablecards.state.rememberSwipeableCardsState
 import com.spartapps.swipeablecards.ui.SwipeableCardDirection
 import com.spartapps.swipeablecards.ui.lazy.LazySwipeableCards
 import com.spartapps.swipeablecards.ui.lazy.items
-import com.stephenelf.grindgym.data.model.Gym
+import com.stephenelf.grindgym.data.remote.dto.GymDto
+import com.stephenelf.grindgym.domain.model.Gym
+import kotlin.collections.count
 
 @Composable
 fun GymSwipableCards(
@@ -70,11 +72,10 @@ fun GymSwipableCards(
             GymCardItem(
                 modifier,
                 index,
-                gym.facility_title,
+                gym.name,
                 gym.community_center,
-                gym.address11,
-                gym.location,
-                offset
+                gym.address,
+                gym.location
             )
 
 
@@ -90,8 +91,7 @@ fun GymCardItem(
     text1: String,
     text2: String,
     text3: String,
-    text4: String,
-    offset: Offset,
+    text4: String
 ) {
     Card(
         modifier = modifier
@@ -102,10 +102,11 @@ fun GymCardItem(
             },
         border = BorderStroke(1.dp, color = MaterialTheme.colorScheme.outline.copy(alpha = 0.6f)),
     ) {
+        val random=(0..100).random()
         Box {
             GlideImage(
-                model = "https://picsum.photos/200/300?random=${index}",
-                contentDescription = "Lorem ipsum gym image ${index}",
+                model = "https://picsum.photos/200/300?random=${random}",
+                contentDescription = "Lorem ipsum gym image ${random}",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxSize()
             )
@@ -180,7 +181,6 @@ fun GymCardItemPreview() {
         text1 = "Test Title",
         text2 = "Test Content",
         text3 = "Test Content",
-        text4 = "Test Content",
-        offset = Offset.Zero
+        text4 = "Test Content"
     )
 }

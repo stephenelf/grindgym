@@ -1,4 +1,4 @@
-package com.stephenelf.grindgym.ui.util
+package com.stephenelf.grindgym.presentation.util
 
 /*
  * Copyright 2023 The Android Open Source Project

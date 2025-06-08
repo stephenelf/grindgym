@@ -1,4 +1,4 @@
-package com.stephenelf.grindgym.ui.theme
+package com.stephenelf.grindgym.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

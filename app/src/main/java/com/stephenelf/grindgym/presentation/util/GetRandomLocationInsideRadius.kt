@@ -1,4 +1,4 @@
-package com.stephenelf.grindgym.ui.util
+package com.stephenelf.grindgym.presentation.util
 
 
 import android.location.Location

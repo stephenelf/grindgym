@@ -1,8 +1,8 @@
-package com.stephenelf.grindgym.domain.di
+package com.stephenelf.grindgym.di
 
-import com.stephenelf.grindgym.data.api.GymApi
-import com.stephenelf.grindgym.domain.repository.GymRepositoryImpl
-import com.stephenelf.grindgym.data.repository.GymRepository
+import com.stephenelf.grindgym.data.remote.GymApi
+import com.stephenelf.grindgym.data.repository.GymRepositoryImpl
+import com.stephenelf.grindgym.domain.repository.GymRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

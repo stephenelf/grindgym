@@ -1,9 +1,9 @@
-package com.stephenelf.grindgym.ui.main
+package com.stephenelf.grindgym.presentation.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.stephenelf.grindgym.R
-import com.stephenelf.grindgym.data.repository.GymRepository
+import com.stephenelf.grindgym.domain.repository.GymRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -27,7 +27,7 @@ class MainScreenViewModel @Inject constructor(
         combine(
             _isLoading,
             _userMessage,
-            gymRepository.getGymList()
+            gymRepository.getGyms()
         ) { loading, message, remoteGymList ->
             MainScreenState(gymList = remoteGymList, userMessage = message, isLoading = loading)
         }.stateIn(
@@ -39,7 +39,7 @@ class MainScreenViewModel @Inject constructor(
     fun refresh() {
         _isLoading.value = true
         viewModelScope.launch {
-            gymRepository.getGymList()
+            gymRepository.getGyms()
             _isLoading.value = false
         }
     }

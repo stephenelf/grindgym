@@ -1,4 +1,4 @@
-package com.stephenelf.grindgym.ui.main
+package com.stephenelf.grindgym.presentation.main
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -36,9 +36,10 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.google.android.gms.location.LocationServices
 import com.stephenelf.grindgym.R
-import com.stephenelf.grindgym.data.model.Gym
-import com.stephenelf.grindgym.ui.util.GymSwipableCards
-import com.stephenelf.grindgym.ui.util.PermissionBox
+import com.stephenelf.grindgym.data.remote.dto.GymDto
+import com.stephenelf.grindgym.domain.model.Gym
+import com.stephenelf.grindgym.presentation.util.GymSwipableCards
+import com.stephenelf.grindgym.presentation.util.PermissionBox
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await

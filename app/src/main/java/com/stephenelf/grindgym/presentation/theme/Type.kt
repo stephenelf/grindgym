@@ -1,4 +1,4 @@
-package com.stephenelf.grindgym.ui.theme
+package com.stephenelf.grindgym.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

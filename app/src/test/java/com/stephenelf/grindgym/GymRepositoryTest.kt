@@ -3,10 +3,10 @@ package com.stephenelf.grindgym
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.stephenelf.grindgym.data.api.GymApi
-import com.stephenelf.grindgym.domain.repository.GymRepositoryImpl
-import com.stephenelf.grindgym.data.repository.GymRepository
-import com.stephenelf.grindgym.domain.di.LocalDateTimeAdapter
+import com.stephenelf.grindgym.data.remote.GymApi
+import com.stephenelf.grindgym.data.repository.GymRepositoryImpl
+import com.stephenelf.grindgym.domain.repository.GymRepository
+import com.stephenelf.grindgym.di.LocalDateTimeAdapter
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import okhttp3.OkHttpClient
@@ -52,7 +52,7 @@ class GymRepositoryTest {
     fun getgymFromRepository() = runTest {
 
         System.out.println("Testing repository")
-        gymRepository.getGymList().collect{ gyms->
+        gymRepository.getGyms().collect{ gyms->
             System.out.println("Name: ${gyms.size}")
             Assert.assertEquals(gyms.size,100)
         }
